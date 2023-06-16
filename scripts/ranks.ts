@@ -4,6 +4,7 @@ import outdent from "outdent";
 import { fromByteArray } from "base64-js";
 import registry from "../tiktoken/registry.json";
 import modelToEncoding from "../tiktoken/model_to_encoding.json";
+import fetch from "node-fetch";
 
 // printable ascii characters according to python
 function isPrintable(u: number): boolean {
