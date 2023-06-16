@@ -18,7 +18,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "ts-morph": "^17.0.1"
+    "ts-morph": "^17.0.1",
+    "wasm-pack": "^0.11.1"
   },
   "publishConfig": {
     "directory": "./dist",
