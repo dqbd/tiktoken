@@ -30,6 +30,7 @@ jobs:
           npm whoami --verbose
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       # - name: Create Release Pull Request or Publish
       #   id: changesets
       #   uses: changesets/action@v1
