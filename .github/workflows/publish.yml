@@ -24,6 +24,7 @@ jobs:
       #     EOF
       #   env:
       #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: npm i -g npm@9.6.2
       - run: |
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
           npm whoami --verbose
