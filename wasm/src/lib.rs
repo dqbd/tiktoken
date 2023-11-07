@@ -325,7 +325,7 @@ impl Tiktoken {
 #[cfg(feature = "inline")]
 #[wasm_bindgen(typescript_custom_section)]
 const _: &'static str = r#"
-export type TiktokenEncoding = "gpt2" | "r50k_base" | "p50k_base" | "p50k_edit" | "cl100k_base"; 
+export type TiktokenEncoding = "gpt2" | "r50k_base" | "p50k_base" | "p50k_edit" | "cl100k_base";
 
 /**
  * @param {TiktokenEncoding} encoding
@@ -386,6 +386,7 @@ export type TiktokenModel =
     | "gpt-4-32k"
     | "gpt-4-32k-0314"
     | "gpt-4-32k-0613"
+    | "gpt-4-1106-preview"
     | "gpt-3.5-turbo"
     | "gpt-3.5-turbo-0301"
     | "gpt-3.5-turbo-0613"
@@ -448,6 +449,7 @@ pub fn encoding_for_model(
         "gpt-4-32k" => Ok("cl100k_base"),
         "gpt-4-32k-0314" => Ok("cl100k_base"),
         "gpt-4-32k-0613" => Ok("cl100k_base"),
+        "gpt-4-1106-preview" => Ok("cl100k_base"),
         model => Err(JsError::new(
             format!("Invalid model: {}", model.to_string()).as_str(),
         )),

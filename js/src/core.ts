@@ -252,6 +252,7 @@ export function getEncodingNameForModel(model: TiktokenModel) {
     case "gpt-3.5-turbo-0613":
     case "gpt-3.5-turbo-0301":
     case "gpt-3.5-turbo":
+    case "gpt-4-1106-preview":
     case "gpt-4-32k-0613":
     case "gpt-4-32k-0314":
     case "gpt-4-32k":
