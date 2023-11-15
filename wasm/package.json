@@ -16,7 +16,6 @@
     "type": "git",
     "url": "https://github.com/dqbd/tiktoken"
   },
-  "dependencies": {},
   "devDependencies": {
     "ts-morph": "^17.0.1"
   },
