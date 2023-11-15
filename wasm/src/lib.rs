@@ -390,6 +390,7 @@ export type TiktokenModel =
     | "gpt-3.5-turbo"
     | "gpt-3.5-turbo-0301"
     | "gpt-3.5-turbo-0613"
+    | "gpt-3.5-turbo-1106"
     | "gpt-3.5-turbo-16k"
     | "gpt-3.5-turbo-16k-0613";
 
@@ -441,6 +442,7 @@ pub fn encoding_for_model(
         "gpt-3.5-turbo" => Ok("cl100k_base"),
         "gpt-3.5-turbo-0301" => Ok("cl100k_base"),
         "gpt-3.5-turbo-0613" => Ok("cl100k_base"),
+        "gpt-3.5-turbo-1106" => Ok("cl100k_base"),
         "gpt-3.5-turbo-16k" => Ok("cl100k_base"),
         "gpt-3.5-turbo-16k-0613" => Ok("cl100k_base"),
         "gpt-4" => Ok("cl100k_base"),
