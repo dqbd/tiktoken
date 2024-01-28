@@ -396,6 +396,8 @@ export type TiktokenModel =
     | "gpt-3.5-turbo-0125"
     | "gpt-3.5-turbo-16k"
     | "gpt-3.5-turbo-16k-0613"
+    | "gpt-3.5-turbo-instruct"
+    | "gpt-3.5-turbo-instruct-0914"
     | "gpt-4-turbo-preview"
     | "gpt-4-1106-preview"
     | "gpt-4-0125-preview"
