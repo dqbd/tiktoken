@@ -271,6 +271,7 @@ export function getEncodingNameForModel(model: TiktokenModel) {
     case "gpt-4-turbo-2024-04-09":
     case "gpt-4-turbo-preview":
     case "gpt-4-0125-preview":
+    case "gpt-4o":
     case "text-embedding-ada-002": {
       return "cl100k_base";
     }
