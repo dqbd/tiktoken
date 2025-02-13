@@ -293,6 +293,11 @@ export function getEncodingNameForModel(model: TiktokenModel) {
     case "chatgpt-4o-latest":
     case "gpt-4o-realtime":
     case "gpt-4o-realtime-preview-2024-10-01":
+    case "gpt-4o-audio-preview":
+    case "gpt-4o-audio-preview-2024-12-17":
+    case "gpt-4o-audio-preview-2024-10-01":
+    case "gpt-4o-mini-audio-preview":
+    case "gpt-4o-mini-audio-preview-2024-12-17":
     {
       return "o200k_base";
     }
