@@ -71,5 +71,10 @@
     "o3-mini-2025-01-31": "o200k_base",
     "chatgpt-4o-latest": "o200k_base",
     "gpt-4o-realtime": "o200k_base",
-    "gpt-4o-realtime-preview-2024-10-01": "o200k_base"
+    "gpt-4o-realtime-preview-2024-10-01": "o200k_base",
+    "gpt-4o-audio-preview": "o200k_base",
+    "gpt-4o-audio-preview-2024-12-17": "o200k_base",
+    "gpt-4o-audio-preview-2024-10-01": "o200k_base",
+    "gpt-4o-mini-audio-preview": "o200k_base",
+    "gpt-4o-mini-audio-preview-2024-12-17": "o200k_base"
 }
