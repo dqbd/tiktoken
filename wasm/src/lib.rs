@@ -436,7 +436,10 @@ export type TiktokenModel =
     | "o3-mini-2025-01-31"
     | "chatgpt-4o-latest"
     | "gpt-4o-realtime"
-    | "gpt-4o-realtime-preview-2024-10-01"
+    | "gpt-4o-realtime-preview-2024-10-01",
+    | "gpt-4.1",
+    | "gpt-4.1-mini",
+    | "gpt-4.1-nano"
 
 /**
  * @param {TiktokenModel} encoding
